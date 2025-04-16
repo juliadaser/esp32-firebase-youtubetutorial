@@ -4,6 +4,12 @@ This project demonstrates how to send real-time data between two **ESP32 microco
 
 ---
 
+## 🎬 Watch our Demo
+
+📹 [Watch on YouTube](https://www.youtube.com/watch?v=Xx5cEIbBvZY)
+
+---
+
 ## 🎯 Overview
 
 - Uses **Google Firebase Realtime Database** to sync data across devices.
@@ -18,21 +24,6 @@ This project demonstrates how to send real-time data between two **ESP32 microco
 - Google Firebase Realtime Database  
 - ESP32 WiFi-enabled microcontrollers  
 - Arduino IDE + Firebase Client Library for ESP  
-
----
-
-## 🧠 How It Works
-
-- Each ESP32 device connects to Firebase via **NodeMCU + WiFi**.
-- When the button is pressed on one ESP32, the state (`0` or `1`) is uploaded to the database.
-- The second ESP32 constantly checks the database for updates.
-- If the button state changes, the LED reacts in real time — giving the illusion of direct long-distance interaction.
-
----
-
-## 🎬 Watch our Demo
-
-📹 [Watch on YouTube](https://www.youtube.com/watch?v=Xx5cEIbBvZY)
 
 ---
 
